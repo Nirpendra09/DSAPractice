@@ -1,4 +1,4 @@
-
+package RecursionNBacktracking;
 
 public class PrintSubsequence{
     public static void main(String []args){
@@ -16,7 +16,7 @@ public class PrintSubsequence{
         char ch = ques.charAt(0);
         String roq = ques.substring(1);
 
-        printSS(roq, ans+ch);
+        printSS(roq, ans + ch);
         printSS(roq, ans+"");
     }
 }
